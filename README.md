@@ -48,4 +48,4 @@ And more to come in the future!
 
 IM NOT RESPONSIBLE FOR ANY VAC BANS, MAKE SURE YOU DONT USE YOUR MAIN, USE AN ALT ALSO IF YOU WANT TO REPORT ANY ERRORS OR OUTDATED MODIFICATIONS JOIN THE DISCORD! 
 
-- [https://discord.gg/A46CKWe3gH](https://discord.gg/A46CKWe3gH "https://discord.gg/A46CKWe3gH")
+- [https://discord.gg/A46CKWe3gH](https://discord.gg/yKKhpbAG3s "https://discord.gg/A46CKWe3gH")
