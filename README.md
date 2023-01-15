@@ -11,6 +11,8 @@ pip install customtkinter
 pip install pystyle
 pip install pillow
 pip install urllib3
+pip install wmi
+pip install colored
 ```
 ## Compatibility
 
