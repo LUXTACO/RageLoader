@@ -9,7 +9,7 @@ pip install tk
 pip install colorama
 pip install customtkinter
 pip install pystyle
-pip install pil
+pip install pillow
 pip install urllib3
 ```
 ## Compatibility
