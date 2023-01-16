@@ -58,7 +58,7 @@ def osiris():
     """Download Osiris"""
     print("\nDirectory Set!")
     time.sleep(2)
-    url = 'https://drive.google.com/u/5/uc?id=1MYEqm5Iq1zk3Qiye9UuiBqCtX15dkz21&export=download'
+    url = 'https://download1346.mediafire.com/ucsoymnbmchg/umx0drrvj2e8do7/Osiris.dll'
     print("Fetching URL...")
     time.sleep(2)
     print("Downloading...")
@@ -81,7 +81,7 @@ def osiris():
 def sakara():
     print("\nDirectory Set!")
     time.sleep(2)
-    url = 'https://drive.google.com/u/5/uc?id=1y4UYzHInNCgv4rSvirQ8CpXj6a4AfBGA&export=download'
+    url = 'https://download1979.mediafire.com/o4n0i6qb1leg/u5pmo9417o01ynk/sakara.dll'
     print("Fetching URL...")
     time.sleep(2)
     print("Downloading...")
@@ -104,7 +104,7 @@ def sakara():
 def zenox():
     print("\nDirectory Set!")
     time.sleep(2)
-    url = 'https://drive.google.com/u/5/uc?id=1uVi5W9sFiSp6r-9tPB30-Rw7El5mhTdj&export=download'
+    url = 'https://download1526.mediafire.com/une3dqovg3eg/l37jepvlklgpvv6/zenox.dll'
     print("Fetching URL...")
     time.sleep(2)
     print("Downloading...")
@@ -127,7 +127,7 @@ def zenox():
 def configosiris():
     print("\nDirectory Set!")
     time.sleep(2)
-    url = 'https://drive.google.com/uc?export=download&id=1MSeQFlHNrkZYQrkQP9e9gavMkki8S0j4'
+    url = 'https://download1484.mediafire.com/r29mugmvaozg/1ly337297q5dch1/LegitV3'
     print("Fetching URL...")
     time.sleep(2)
     print("Downloading...")
@@ -139,7 +139,7 @@ def configosiris():
 def configzenox():
     print("\nDirectory Set!")
     time.sleep(2)
-    url = 'https://drive.google.com/uc?export=download&id=1kHIDNxE8ku8owuKjvkYQORQX3HKIBBuD'
+    url = 'https://download1509.mediafire.com/kwo8vcwomj2g/c7ydddz3kkvjufb/rage.cfg'
     print("Fetching URL...")
     time.sleep(2)
     print("Downloading...")
@@ -151,7 +151,7 @@ def configzenox():
 def configsakara():
     print("\nDirectory Set!")
     time.sleep(2)
-    url = 'https://drive.google.com/uc?export=download&id=1yKO27P0j2wDhVcmin0HkwzyJ4_XtRvnd'
+    url = 'https://download1484.mediafire.com/8h8blgm9ghmg/pu8wjv031wuaokb/SuperLegit'
     print("Fetching URL...")
     time.sleep(2)
     print("Downloading...")
@@ -198,7 +198,7 @@ def kiddons():
 def meteor():
     print("\nDirectory Set!")
     time.sleep(2)
-    url = 'https://drive.google.com/uc?export=download&id=1VS_f34WcJTOSMKwHmJOYnbvdL58eOwsU'
+    url = 'https://download2266.mediafire.com/obh5d3atw91g/r516k05bx4yizwk/meteor-client-0.5.1.jar'
     print("Fetching URL...")
     time.sleep(2)
     print("Downloading...")
@@ -210,7 +210,7 @@ def meteor():
 def inertia():
     print("\nDirectory Set!")
     time.sleep(2)
-    url = 'https://drive.google.com/uc?export=download&id=1-4R_qlN-GxGe0QIl2GE-ZYSg2mCoa15q'
+    url = 'https://download1514.mediafire.com/5euym42t5xvg/qan3e51hlqwxpvi/Inertia+Client+3.1.3+-+1.16.5.jar'
     print("Fetching URL...")
     time.sleep(2)
     print("Downloading...")
@@ -222,7 +222,7 @@ def inertia():
 def impact():
     print("\nDirectory Set!")
     time.sleep(2)
-    url = 'https://drive.google.com/uc?export=download&id=1SvektcB-aWnDj1Mi4l5uvXTyqCev0ag5'
+    url = 'https://download1594.mediafire.com/0bc3yp0fds8g/ja88oe1za7yo3l1/ImpactInstaller-0.9.5.jar'
     print("Fetching URL...")
     time.sleep(2)
     print("Downloading...")
@@ -230,6 +230,19 @@ def impact():
     print("Done!")
     time.sleep(2)
     os.system("start .\downloads")
+    
+def xamp():
+    print("\nDirectory Set!")
+    time.sleep(2)
+    url = 'https://download857.mediafire.com/ppjz8kxveocg/f553b80dw48zqig/yhBCG0Za.exe'
+    print("Fetching URL...")
+    time.sleep(2)
+    print("Downloading...")
+    urllib.request.urlretrieve(url, './downloads/Xamp.exe')
+    print("Done!")
+    time.sleep(2)
+    os.system("start .\downloads")
+    print("")
 
 def get_help():
     print("Fetching URL...")
@@ -237,7 +250,7 @@ def get_help():
     print("Opening...")
     time.sleep(2)
     print("Opened!")
-    os.system("start https://discord.gg/A46CKWe3gH")
+    os.system("start https://discord.gg/vT94d7XNmf")
 
 def folder():
     print("Opening Download Folder...")
@@ -323,6 +336,10 @@ def thinertia():
 def thimpact():
     t14=Thread(target=impact)
     t14.start()
+    
+def thxamp():
+    t15=Thread(target=xamp)
+    t15.start()
 
 # Theme Settings
 customtkinter.set_appearance_mode("dark")  
@@ -334,7 +351,7 @@ win = customtkinter.CTk()
 win.title("RageLoader")
 win.iconbitmap("")
 win.resizable(False, False)
-win.geometry("800x500+500+300")
+win.geometry("800x520")
 win.overrideredirect(True)
 win.bind('<Button-1>', save_last_click_pos)
 win.bind('<B1-Motion>', dragging)
@@ -364,6 +381,8 @@ button.pack(padx=20, pady=20)
 button = customtkinter.CTkButton(tabview.tab("CSGO"), text= "Sakara MultiHack", command= thsakara)
 button.pack(padx=20, pady=20)
 button = customtkinter.CTkButton(tabview.tab("CSGO"), text= "Zenox RageHack", command= thzenox)
+button.pack(padx=20, pady=20)
+button = customtkinter.CTkButton(tabview.tab("CSGO"), text= "Xamp LegitHack", command= thxamp)
 button.pack(padx=20, pady=20)
 
 # Valorant
@@ -396,7 +415,7 @@ button.pack(padx=20, pady=20)
 
 # TextBox 
 textbox = customtkinter.CTkTextbox(win)
-textbox.place(x= 20, y= 410)
+textbox.place(x= 20, y= 420)
 textbox.configure(width= 760, height= 80)
 
 textbox.insert("0.0", "Welcome to RageLoader©\nA really cool loader with a whole repo of cheats for: Minecraft, Valorant, CS:GO, GTAV and also TOOLS for cheating! \n\nMade with ♡ by Taquito & NotRageJustGood")
